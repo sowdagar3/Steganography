@@ -1,4 +1,6 @@
 Staganography is data hiding technique, through which we can hide a piece of information in an object.Based on the nature of covering object Staganography is divided into Text Staganography,Image Steganography,Video Steganography,Audio Steganography etc.
+
+
 In this repository I performed Image Staganography using an encoder architecture to embed a secret message into an image and a decoder architecture to extract the hidden message from the Stegastamp.
 These encoder and decoder architectures are trained with MIRFLICKR dataset.
 
