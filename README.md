@@ -7,18 +7,19 @@ To download the pretrained encoder and decoder use the link [Pretrained_models](
 
 
 To encode a messege "Hello" in an image img.png run encode_image.py by passing necessary arguments as
-    python encode_image.py \
+    python Encode_image.py \
     saved_models/Encoder.pth \
   --image img.png  \
   --save_dir out/ \
   --secret Hello
+  
   After the execution of the above script a Stegastamp and a residual applied to original image will be saved in "out" directory.
   
   
   
   
 To decode the hidden message from Stegastamp run decode_image.py by passing necessary arguments as 
-    python decode_image.py \
+    python Decode_image.py \
     saved_models/Decoder.pth \
     --image out/Stegastamp.png
    
