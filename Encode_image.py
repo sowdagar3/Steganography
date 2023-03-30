@@ -86,7 +86,7 @@ def main():
                 save_name = os.path.basename(filename).split('.')[0]
 
                 im = Image.fromarray(encoded)
-                im.save(args.save_dir + '/' + save_name + '_hidden.png')
+                im.save(args.save_dir + '/' + save_name + 'Stegastamp.png')
 
                 im = Image.fromarray(residual)
                 im.save(args.save_dir + '/' + save_name + '_residual.png')
