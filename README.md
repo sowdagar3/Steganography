@@ -35,7 +35,7 @@ To decode the hidden message from Stegastamp run decode_image.py by passing nece
  After the execution of the above script,the hidden message "Hello" will be displayed on the terminal.
  
  
-Refference:
+Refferences:
 
 1.[StegaStamp: Invisible Hyperlinks in Physical Photographs](https://arxiv.org/abs/1904.05343)
 
