@@ -36,6 +36,7 @@ To decode the hidden message from Stegastamp run decode_image.py by passing nece
  
  
 Refference:
+
 1.[StegaStamp: Invisible Hyperlinks in Physical Photographs](https://arxiv.org/abs/1904.05343)
 
 2.[https://github.com/JisongXie/StegaStamp_pytorch](https://github.com/JisongXie/StegaStamp_pytorch)
